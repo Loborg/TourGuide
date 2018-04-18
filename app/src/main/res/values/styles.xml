@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="main_image_style">
+        <item name="android:layout_width">@dimen/main_image_hw</item>
+        <item name="android:layout_height">@dimen/main_image_hw</item>
+        <item name="android:layout_marginEnd">@dimen/image_30_margin_paddig</item>
+        <item name="android:layout_marginStart">@dimen/image_30_margin_paddig</item>
+    </style>
+
+    <style name="tab_layout_style" parent="TextAppearance.Design.Tab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:textSize">@dimen/tab_layout_text_size</item>-->
+    </style>
+
+    <style name="view_pager_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="description_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/common_10_margin_paddig</item>
+        <item name="android:textSize">@dimen/list_item_description_text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:padding">@dimen/common_10_margin_paddig</item>
+        <item name="android:textSize">@dimen/list_item_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
 </resources>

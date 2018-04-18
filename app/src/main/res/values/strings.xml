@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TourGuide</string>
+    <string name="sight_name_keszthely">Keszthely</string>
+    <string name="sight_name_szeged">Szeged</string>
+    <string name="sight_name_pecs">Pécs</string>
+    <string name="sight_name_alfold">Alföld</string>
+
+    <string name="list_item_sample_title">Lorem ipsum</string>
+    <string name="list_item_sample_description">
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore
+    </string>
 </resources>
