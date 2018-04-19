@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.example.android.tourguide.R;
-import com.example.android.tourguide.activitys.MainActivity;
 import com.example.android.tourguide.adapters.SightAdapter;
 import com.example.android.tourguide.models.Data;
 

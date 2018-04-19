@@ -37,92 +37,104 @@ public class Data {
     private void populateKeszthelyList(){
         keszthelyList.add(new Sight(
                 mContext.getResources().getIdentifier("balaton_museum", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.keszthely_color)));
+                mContext.getResources().getString(R.string.keszthely_t_1),
+                mContext.getResources().getString(R.string.keszthely_d_1), mContext.getResources().getColor(R.color.keszthely_color)));
 
         keszthelyList.add(new Sight(
                 mContext.getResources().getIdentifier("festetics", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description),
+                mContext.getResources().getString(R.string.keszthely_t_2),
+                mContext.getResources().getString(R.string.keszthely_d_2),
                 mContext.getResources().getColor(R.color.keszthely_color)));
 
         keszthelyList.add(new Sight(
                 mContext.getResources().getIdentifier("szigetfurdo", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description),
+                mContext.getResources().getString(R.string.keszthely_t_3),
+                mContext.getResources().getString(R.string.keszthely_d_3),
                 mContext.getResources().getColor(R.color.keszthely_color)));
 
         keszthelyList.add(new Sight(
                 mContext.getResources().getIdentifier("uloszobor", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description),
+                mContext.getResources().getString(R.string.keszthely_t_4),
+                mContext.getResources().getString(R.string.keszthely_d_4),
                 mContext.getResources().getColor(R.color.keszthely_color)));
     }
 
     private void populateSzegedList(){
         szegedList.add(new Sight(
                 mContext.getResources().getIdentifier("dom", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.szeged_color)));
+                mContext.getResources().getString(R.string.szeged_t_1),
+                mContext.getResources().getString(R.string.szeged_d_1),
+                mContext.getResources().getColor(R.color.szeged_color)));
 
         szegedList.add(new Sight(
                 mContext.getResources().getIdentifier("dom_square", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.szeged_color)));
+                mContext.getResources().getString(R.string.szeged_t_2),
+                mContext.getResources().getString(R.string.szeged_d_2),
+                mContext.getResources().getColor(R.color.szeged_color)));
 
         szegedList.add(new Sight(
                 mContext.getResources().getIdentifier("hosok_kapuja", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.szeged_color)));
+                mContext.getResources().getString(R.string.szeged_t_3),
+                mContext.getResources().getString(R.string.szeged_d_3),
+                mContext.getResources().getColor(R.color.szeged_color)));
 
         szegedList.add(new Sight(
                 mContext.getResources().getIdentifier("viztorony", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.szeged_color)));
+                mContext.getResources().getString(R.string.szeged_t_4),
+                mContext.getResources().getString(R.string.szeged_d_4),
+                mContext.getResources().getColor(R.color.szeged_color)));
     }
 
     private void populatePecsList(){
         pecsList.add(new Sight(
                 mContext.getResources().getIdentifier("dzsami", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.pecs_color)));
+                mContext.getResources().getString(R.string.pecs_t_1),
+                mContext.getResources().getString(R.string.pecs_d_1),
+                mContext.getResources().getColor(R.color.pecs_color)));
 
         pecsList.add(new Sight(
                 mContext.getResources().getIdentifier("szekesegyhaz", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.pecs_color)));
+                mContext.getResources().getString(R.string.pecs_t_2),
+                mContext.getResources().getString(R.string.pecs_d_2),
+                mContext.getResources().getColor(R.color.pecs_color)));
 
         pecsList.add(new Sight(
                 mContext.getResources().getIdentifier("tv_torony", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.pecs_color)));
+                mContext.getResources().getString(R.string.pecs_t_3),
+                mContext.getResources().getString(R.string.pecs_d_3),
+                mContext.getResources().getColor(R.color.pecs_color)));
 
         pecsList.add(new Sight(
                 mContext.getResources().getIdentifier("zsolnay_museum", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.pecs_color)));
+                mContext.getResources().getString(R.string.pecs_t_4),
+                mContext.getResources().getString(R.string.pecs_d_4),
+                mContext.getResources().getColor(R.color.pecs_color)));
     }
 
     private void populateAlfoldList(){
         alfoldList.add(new Sight(
                 mContext.getResources().getIdentifier("gyula_var", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.alfold_color)));
+                mContext.getResources().getString(R.string.alfold_t_1),
+                mContext.getResources().getString(R.string.alfold_d_1),
+                mContext.getResources().getColor(R.color.alfold_color)));
 
         alfoldList.add(new Sight(
                 mContext.getResources().getIdentifier("hajospincefalu", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.alfold_color)));
+                mContext.getResources().getString(R.string.alfold_t_2),
+                mContext.getResources().getString(R.string.alfold_d_2),
+                mContext.getResources().getColor(R.color.alfold_color)));
 
         alfoldList.add(new Sight(
                 mContext.getResources().getIdentifier("kilenclyuku_hid", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.alfold_color)));
+                mContext.getResources().getString(R.string.alfold_t_3),
+                mContext.getResources().getString(R.string.alfold_d_3),
+                mContext.getResources().getColor(R.color.alfold_color)));
 
         alfoldList.add(new Sight(
                 mContext.getResources().getIdentifier("opusztaszer", Keys.DRAWABLE, mContext.getPackageName()),
-                mContext.getResources().getString(R.string.list_item_sample_title),
-                mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.alfold_color)));
+                mContext.getResources().getString(R.string.alfold_t_4),
+                mContext.getResources().getString(R.string.alfold_d_4),
+                mContext.getResources().getColor(R.color.alfold_color)));
     }
 
     private void populateSightsColor(){

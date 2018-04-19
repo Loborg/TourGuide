@@ -2,7 +2,7 @@
 <resources>
     <dimen name="main_image_hw">300dp</dimen>
     <dimen name="smal_image_hw">100dp</dimen>
-    <dimen name="common_10_margin_paddig">10dp</dimen>
+    <dimen name="common_10_margin_paddig">5dp</dimen>
     <dimen name="image_30_margin_paddig">30dp</dimen>
     <dimen name="margin_20">20dp</dimen>
     <dimen name="tab_layout_text_size">20sp</dimen>

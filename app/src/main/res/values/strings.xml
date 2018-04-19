@@ -11,4 +11,65 @@
         consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore
     </string>
+
+    <string name="keszthely_t_1">Blaton Múzeum</string>
+        <string name="keszthely_d_1">A múzeum épülete 1925–1928 között épült
+            Györgyi Dénes tervei szerint neobarokk stílusban.</string>
+    <string name="keszthely_t_2">Festetics Kastély</string>
+        <string name="keszthely_d_2">A Festetics-kastély Keszthely kiemelkedő jelentőségű műemléke.</string>
+    <string name="keszthely_t_3">Sziget Fürdő</string>
+        <string name="keszthely_d_3">Az első kerek fürdőszigetet az 1880-as években építették,
+            amit 1893-ban díszes bejárattal két szigetből álló fürdővé bővítettek.</string>
+    <string name="keszthely_t_4">Festetics György ülőszobra</string>
+        <string name="keszthely_d_4">Keszthely életében és fejlődésében meghatározó szerepet játszó Festetics György szobrát
+            születésének 250. évfordulója alkalmából,
+            2005-ben avatták fel Keszthely városközpontjában.</string>
+
+    <string name="szeged_t_1">Dóm</string>
+        <string name="szeged_d_1">A szegedi Magyarok Nagyasszonya székesegyház
+            a Szeged-Csanádi egyházmegye főtemploma</string>
+    <string name="szeged_t_2">Dóm tér</string>
+        <string name="szeged_d_2">A Dóm tér Szeged leghíresebb tere.
+            A Fogadalmi templom előtti árkádsorral körbevett Dóm tér kiváló akusztikája miatt
+            a Szegedi Szabadtéri Játékok legalkalmasabb helyszínéne.</string>
+    <string name="szeged_t_3">Hősök Kapuja</string>
+        <string name="szeged_d_3">A szegedi Hősök kapuja neoklasszicista művészeti alkotás
+            az I. világháború elesett hősei,
+            a 12 000 szegedi katona emlékére készült.</string>
+    <string name="szeged_t_4">Víztorony</string>
+        <string name="szeged_d_4">A szegedi víztorony a Szent István téren áll.
+            Építése 1902-ben kezdődött el.
+            Tervezője Zielinski Szilárd.</string>
+
+    <string name="pecs_t_1">Dzsámi</string>
+        <string name="pecs_d_1">A belvárosban álló Gyertyaszentelő Boldogasszony
+        plébánia templom hazánk páratlan törökkori műemléke.</string>
+    <string name="pecs_t_2">Székesegyhát</string>
+        <string name="pecs_d_2">A pécsi Szent Péter- és Szent Pál-székesegyház
+            a Pécsi egyházmegye katedrálisa, a város egyik jellegzetes épülete.</string>
+    <string name="pecs_t_3">TV Torony</string>
+        <string name="pecs_d_3">A 197 méter magas pécsi tévétorony a Mecsekben,
+            az 535 méter magas Misina csúcsán áll.</string>
+    <string name="pecs_t_4">Zsolnay Múzeum</string>
+        <string name="pecs_d_4">Pécsett a Káptalan u. 2-ben található a
+            Janus Pannonius  Múzeum Zsolnay gyűjteményét
+            bemutató állandó kiállítás</string>
+
+    <string name="alfold_t_1">Gyulai Vár</string>
+        <string name="alfold_d_1">Vörös téglavár a város közepén
+        Közép-Európa egyetlen épségben fennmaradt téglavára,
+        mely az 1400-as években épült</string>
+    <string name="alfold_t_2">Hajósi Pincefalu</string>
+        <string name="alfold_d_2">A legbarátságosabb és legnagyobb pincsor
+        Magyarország legnagyobb pincefaluja,
+        mely a dél-alföldi régióban található</string>
+    <string name="alfold_t_3">Kilenjukú híd</string>
+        <string name="alfold_d_3">A hortobágyi Kilenclyukú híd egy régi fahíd helyén épült
+            klasszicista stílusban 1827 és 1833 között
+            Povolny Ferenc tervei alapján.</string>
+    <string name="alfold_t_4">Ópusztaszer</string>
+        <string name="alfold_d_4">A Feszty-körkép otthona
+        A Dél-Alföld legnépszerűbb és legismertebb kiránduló helye
+        a magyar honfoglalás emlékére létesített Történelmi Park</string>
+
 </resources>
