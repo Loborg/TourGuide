@@ -21,6 +21,7 @@ public class KeszthelyFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView;
         rootView = inflater.inflate(R.layout.common_fragment, container, false);
+        rootView.setTag("keszthely");
 
         Data data = new Data(getActivity());
         SightAdapter adapter = new SightAdapter(getActivity(), data.keszthelyList);

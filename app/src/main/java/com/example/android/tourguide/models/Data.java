@@ -10,10 +10,12 @@ import java.util.ArrayList;
 public class Data {
     public Context mContext;
     public ArrayList<Integer> mainImagesResourceIdList = new ArrayList<Integer>();
+    public ArrayList<Integer> sightsColor = new ArrayList<Integer>();
     public ArrayList<Sight> keszthelyList = new ArrayList<Sight>();
     public ArrayList<Sight> szegedList = new ArrayList<Sight>();
     public ArrayList<Sight> pecsList = new ArrayList<Sight>();
     public ArrayList<Sight> alfoldList = new ArrayList<Sight>();
+
 
     public Data(Context context){
         mContext = context;
@@ -22,6 +24,7 @@ public class Data {
         populateSzegedList();
         populatePecsList();
         populateAlfoldList();
+        populateSightsColor();
     }
 
     private void populateMainImagesResourceIdList(){
@@ -120,5 +123,12 @@ public class Data {
                 mContext.getResources().getIdentifier("opusztaszer", Keys.DRAWABLE, mContext.getPackageName()),
                 mContext.getResources().getString(R.string.list_item_sample_title),
                 mContext.getResources().getString(R.string.list_item_sample_description), mContext.getResources().getColor(R.color.alfold_color)));
+    }
+
+    private void populateSightsColor(){
+        sightsColor.add(keszthelyList.get(0).getBgColorResourceId());
+        sightsColor.add(szegedList.get(0).getBgColorResourceId());
+        sightsColor.add(pecsList.get(0).getBgColorResourceId());
+        sightsColor.add(alfoldList.get(0).getBgColorResourceId());
     }
 }
